@@ -103,6 +103,7 @@ Reproducible, automation-friendly pipeline design
 
 Secure handling of credentials and raw data (excluded from version control)
 
-Notes
+## Notes
 Raw data files are intentionally not included in this repository.
 The pipeline is designed to retrieve data directly from cloud storage (AWS S3), ensuring reproducibility without committing large or sensitive datasets.
+
