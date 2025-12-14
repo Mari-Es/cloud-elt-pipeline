@@ -97,6 +97,8 @@ Separation of concerns between ingestion, transformation, and validation
 
 SQL-based transformations executed inside the database for scalability
 
+Implemented incremental loading to avoid full table reloads and improve scalability
+
 Robust handling of real-world data formats
 
 Reproducible, automation-friendly pipeline design
@@ -106,4 +108,5 @@ Secure handling of credentials and raw data (excluded from version control)
 ## Notes
 Raw data files are intentionally not included in this repository.
 The pipeline is designed to retrieve data directly from cloud storage (AWS S3), ensuring reproducibility without committing large or sensitive datasets.
+
 
