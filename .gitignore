@@ -1,0 +1,16 @@
+# Environment variables / secrets
+.env
+
+# Local data (never commit raw data)
+data/
+*.csv
+*.xlsx
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
